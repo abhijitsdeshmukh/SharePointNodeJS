@@ -8,6 +8,7 @@ I need just a utility to upload files to SharePoint from a command line
 curl -ntlm does not work because of authentication anymore, probably starting from SharePoint 2016
 
 To Run, follow these steps
+
 npm install
 
 tsc
@@ -15,11 +16,13 @@ tsc
 node index.js "/full/path/to/the/file"  desiredfilename.zip "/relative/path/on/SharePoint/"
 
 
+
 To generate client ID and secrets
 
 https://pnp.github.io/pnpjs/nodejs/docs/sp-fetch-client/
 
 https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/development-experience-tenant-apponly-permissions-in-sharepoint-online
+
 
 
 Useful links
