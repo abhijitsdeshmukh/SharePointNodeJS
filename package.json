@@ -1,0 +1,20 @@
+{
+  "name": "spupload",
+  "version": "1.0.0",
+  "description": "Command line upload to SharePoint from Node.js",
+  "main": "index.js",
+  "keywords": ["SharePoint", "Node.js", "pnpjs"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhijit Deshmukh",
+  "license": "MIT",
+  "dependencies": {
+    "@pnp/common": "^1.2.7",
+    "@pnp/graph": "^1.2.7",
+    "@pnp/logging": "^1.2.7",
+    "@pnp/nodejs": "^1.2.7",
+    "@pnp/odata": "^1.2.7",
+    "@pnp/sp": "^1.2.7"
+  }
+}
