@@ -11,3 +11,11 @@ To Run, follow these steps
 npm install
 tsc
 node index.js "/full/path/to/the/file"  desiredfilename.zip "/relative/path/on/SharePoint/"
+
+To generate client ID and secrets
+https://pnp.github.io/pnpjs/nodejs/docs/sp-fetch-client/
+https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/development-experience-tenant-apponly-permissions-in-sharepoint-online
+
+
+Useful links
+https://github.com/s-KaiNet/node-pnpjs-sample 
